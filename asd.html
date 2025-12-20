@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <!-- 
+    form => 
+    action => way of data passing to the server
+    method => get , post
+
+    input => single line input
+    textarea =. multiline input
+radio => choose single option
+checkbox =>choose one or more option
+
+type => type of input box
+
+name => get the data from the input field
+
+value => initial value set to the input field
+
+placeholder => hint to the user
+
+required => mandatory
+
+readonly => only read
+disabled
+
+maxlength="10"
+
+min , max
+    -->
+
+    <h1>heading</h1>
+    <form action="">
+        <input type="number" min="18" max="100">
+
+
+        <label for="">Enter your Name?</label>
+        <input type="text" name="username" placeholder="Ex.Raja" required maxlength="10"> <br>
+
+        <label for="">Enter your Father name?</label>
+        <input type="text" name="fathername"> <br>
+
+        <input type="text" value="DINDIGUL" readonly>
+
+        <label for="">Choose Your Gender?</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female <br>
+
+        <label for="">Choose the Course?</label>
+        <input type="checkbox" name="course" value="C">C
+        <input type="checkbox" name="course" value="C++">C++
+        <input type="checkbox" name="course" value="JAVA">JAVA
+        <input type="checkbox" name="course" value="Python">Python <br>
+
+        <label for="">DOB</label>
+        <input type="date" value="2025-12-19" min="2025-12-10" max="2025-12-21"><br>
+        <label for="">DOB TIME</label>
+        <input type="time"> <br>
+        <input type="datetime-local">
+
+        <input type="month">
+        <input type="week"> <br>
+        <label for="">Enter your Email</label>
+        <input type="email">
+
+        <label for="">Password</label>
+        <input type="password"> <br>
+
+        <label for="">Profile image</label>
+        <input type="file">
+
+        <!-- <input type="number">
+
+        <input type="range">
+        <input type="hidden">
+
+        <input type="url">
+
+        <input type="tel">
+
+        <input type="search"> <br> -->
+
+        <!-- <input type="color"> <br> -->
+
+        <!-- <input type="reset">
+        <input type="button" value="Go">
+        <input type="submit"> -->
+
+        <br><br><br><br>
+        <!-- multiple size="3" -->
+        <select name="" id="" multiple>
+            <optgroup label="Basic Course">
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+            </optgroup>
+            <optgroup label="Advance Course">
+                <option value="Java">Java</option>
+                <option value="Python" selected>Python</option>
+            </optgroup>
+        </select> <br><br>
+
+
+        <textarea name="" id="" rows="5" cols="10">
+
+        </textarea>
+
+
+
+        <button type="submit">submit</button>
+        <button type="button">GO</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>
