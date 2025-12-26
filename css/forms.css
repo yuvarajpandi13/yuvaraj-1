@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: #00ff99;
+}
+.asd{
+    color: #ea3fe5;
+}
+.blue{
+    color: #000;
+}
+body{
+    text-align: center;
+    background-image: url(../image/bgcrd.jpg);
+    background-repeat: no-repeat ;
+    height: 100vh;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
