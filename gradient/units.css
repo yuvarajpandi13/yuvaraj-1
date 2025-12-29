@@ -1,0 +1,9 @@
+.min{
+    border: 2px solid;
+    font-size: 10vmin;
+}
+.max{
+    border: 2px solid;
+    font-size: 10vmax;
+
+}

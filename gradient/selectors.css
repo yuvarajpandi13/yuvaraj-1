@@ -1,0 +1,12 @@
+div h1{
+    background-color: brown;
+}
+div>h1{
+    background-color: blue;
+}
+h1~h2{
+    color: red;
+}
+h1+h3{
+    color: aqua;
+}

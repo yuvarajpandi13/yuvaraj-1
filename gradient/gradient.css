@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lap{
+    text-align: center;
+    border: 2px solid;
+    height: 20vh;
+    background-image: radial-gradient(#2b2bea,#23da23,#f61818);
+    font-size: 70px;
+    font-weight:bold;
+    background-clip: text;
+    color: transparent;
+}
+.mob{
+    text-align: center;
+    border: 2px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 50px;
+    font-weight:bold;
+    background: conic-gradient(blue,red);
+    border-radius: 50%;
+
+}
+.mob:hover{
+    transform: rotate(270deg);
+    transition: 2s;
+}
